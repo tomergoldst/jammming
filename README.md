@@ -14,9 +14,15 @@ build for Codecademy Web developer course as a capstone project.
 - Save Playlist to Account - users can save their custom playlist by clicking a SAVE button.
 
 ## Instructions
-In order to run this app you have to register with Spotify and aquire a client id. After you have a client id create a file named `apis.js` inside `src\util`. Inside that file define a variable named `spotifyClientId` and export it. 
-```javascript
+In order to run this app you need to register your application using the Spotify [Application registration flow](https://developer.spotify.com/dashboard/login). Give your application a relevant name and description. Also, add the following Redirect URI: http://localhost:3000/. Once your spotify application created you will recieve your client id.
+
+After you have a client id create a file named `apis.js` under `src\util` and define an exported variable named `spotifyClientId`. 
+```js
 export const spotifyClientId = 'YOUR_CLIENT_ID';
+```
+Run the app, In the terminal cd to the project folder and type
+```shell 
+npm start
 ```
  
 
