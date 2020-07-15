@@ -13,6 +13,13 @@ build for Codecademy Web developer course as a capstone project.
 - Change Playlist Title - users can change the title of their custom playlist.
 - Save Playlist to Account - users can save their custom playlist by clicking a SAVE button.
 
+## Instructions
+In order to run this app you have to register with Spotify and aquire a client id. After you have a client id create a file named `apis.js` inside `src\util`. Inside that file define a variable named `spotifyClientId` and export it. 
+```javascript
+export const spotifyClientId = 'YOUR_CLIENT_ID';
+```
+ 
+
 ## Future improvements
 - Pressing enter triggers a search
 - Include preview samples for each track
